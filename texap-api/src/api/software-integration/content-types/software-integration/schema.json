@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "software_integrations",
+  "info": {
+    "singularName": "software-integration",
+    "pluralName": "software-integrations",
+    "displayName": "Software Integration"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "textContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "required": true,
+      "default": "Get Started"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    }
+  }
+}

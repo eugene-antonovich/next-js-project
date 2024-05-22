@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_top_features_items",
+  "info": {
+    "displayName": "item",
+    "icon": "arrowRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "required": true
+    },
+    "iconName": {
+      "type": "string",
+      "required": true,
+      "default": "ri-smartphone-line"
+    },
+    "iconBgClass": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

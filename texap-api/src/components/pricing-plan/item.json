@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_pricing_plan_items",
+  "info": {
+    "displayName": "item",
+    "icon": "arrowRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Purchase Plan",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/sign-in",
+      "required": true
+    },
+    "featuresList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-features.list"
+    },
+    "popularTag": {
+      "type": "string"
+    }
+  }
+}

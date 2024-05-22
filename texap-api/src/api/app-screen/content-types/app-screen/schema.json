@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_screens",
+  "info": {
+    "singularName": "app-screen",
+    "pluralName": "app-screens",
+    "displayName": "App Screen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "APP SCREENS",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Beautifully Crafted All App Screenshots",
+      "required": true
+    },
+    "screens": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner.image"
+    }
+  }
+}

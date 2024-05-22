@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_rating_icons",
+  "info": {
+    "displayName": "icon",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "string",
+      "default": "ri-star-fill",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_progresses",
+  "info": {
+    "singularName": "app-progress",
+    "pluralName": "app-progresses",
+    "displayName": "App Progress"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "textContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Start Free Trial",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/app-download",
+      "required": true
+    }
+  }
+}

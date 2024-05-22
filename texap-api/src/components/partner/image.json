@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_partner_images",
+  "info": {
+    "displayName": "image",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

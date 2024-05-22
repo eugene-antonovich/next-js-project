@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_downloads",
+  "info": {
+    "singularName": "app-download",
+    "pluralName": "app-downloads",
+    "displayName": "App Download"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "required": true
+    },
+    "googlePlayStoreLink": {
+      "type": "string",
+      "default": "https://play.google.com/store/apps",
+      "required": true
+    },
+    "appleStoreLink": {
+      "type": "string",
+      "default": "https://www.apple.com/app-store/",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

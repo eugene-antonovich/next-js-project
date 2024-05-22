@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pricing_features_lists",
+  "info": {
+    "displayName": "list",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "string",
+      "default": "ri-check-line",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "intro_videos",
+  "info": {
+    "singularName": "intro-video",
+    "pluralName": "intro-videos",
+    "displayName": "Intro Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videoThumbImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "videoLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

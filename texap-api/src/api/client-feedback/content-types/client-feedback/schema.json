@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "client_feedbacks",
+  "info": {
+    "singularName": "client-feedback",
+    "pluralName": "client-feedbacks",
+    "displayName": "Client Feedback"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "CLIENT REVIEWS",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Some of Our Happy Customer Reviews About Our Products",
+      "required": true
+    },
+    "feedbackItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feedback.item"
+    }
+  }
+}

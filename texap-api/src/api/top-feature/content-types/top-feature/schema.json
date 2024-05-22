@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_features",
+  "info": {
+    "singularName": "top-feature",
+    "pluralName": "top-features",
+    "displayName": "Top Feature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top-features.item"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricing_plans",
+  "info": {
+    "singularName": "pricing-plan",
+    "pluralName": "pricing-plans",
+    "displayName": "Pricing Plan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "required": true
+    },
+    "pricingPlan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-plan.item"
+    }
+  }
+}

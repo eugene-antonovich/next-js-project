@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_feedback_items",
+  "info": {
+    "displayName": "item",
+    "icon": "arrowRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "rating": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rating.icon"
+    },
+    "feedbackText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

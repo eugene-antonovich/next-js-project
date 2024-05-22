@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_apps",
+  "info": {
+    "singularName": "about-app",
+    "pluralName": "about-apps",
+    "displayName": "About App"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDec": {
+      "type": "text",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top-features.item"
+    },
+    "btnText1": {
+      "type": "string",
+      "default": "Start Free Trial",
+      "required": true
+    },
+    "btnLink1": {
+      "type": "string",
+      "default": "/sign-in",
+      "required": true
+    },
+    "btnText2": {
+      "type": "string",
+      "default": "See All Features",
+      "required": true
+    },
+    "btnLink2": {
+      "type": "string",
+      "default": "/features",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
